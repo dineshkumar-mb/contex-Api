@@ -46,7 +46,7 @@ function Section() {
             <span>
               <b>Stock:</b> {state.Data[0].stock} nos
             </span>
-            <button type="onclick">Remove</button>
+            
             <hr />
 
             {/* CARD PRICE STOCK SECTION */}
@@ -78,7 +78,7 @@ function Section() {
             <div className=" card-text">
               <div className=" d-flex justify-content-between">
                 <span>SUBTOTAL</span>
-                <span>${state.Data[0].price}</span>
+                <span>${Price1}</span>
               </div>
               <div className=" d-flex justify-content-between">
                 <span>SHIPPING</span>
@@ -119,7 +119,7 @@ function Section() {
             <span>
               <b>Stock:</b> {state.Data[1].stock} nos
             </span>
-            <button type="onclick">Remove</button>
+            
             <hr />
             {/* CARD PRICE STOCK SECTION */}
             <div className="cardtext d-flex justify-content-between">
@@ -149,7 +149,7 @@ function Section() {
             <div className=" card-text">
               <div className=" d-flex justify-content-between">
                 <span>SUBTOTAL</span>
-                <span>${state.Data[1].price}</span>
+                <span>${Price2}</span>
               </div>
               <div className=" d-flex justify-content-between">
                 <span>SHIPPING</span>
@@ -195,7 +195,7 @@ function Section() {
             <span>
               <b>Stock:</b> {state.Data[2].stock} nos
             </span>
-            <button type="onclick">Remove</button>
+            
             <hr />
             {/* CARD PRICE STOCK SECTION */}
             <div className="cardtext d-flex justify-content-between">
@@ -224,7 +224,7 @@ function Section() {
             <div className=" card-text">
               <div className=" d-flex justify-content-between">
                 <span>SUBTOTAL</span>
-                <span>${state.Data[2].price}</span>
+                <span>${Price3}</span>
               </div>
               <div className=" d-flex justify-content-between">
                 <span>SHIPPING</span>
@@ -263,7 +263,7 @@ function Section() {
             <span>
               <b>Stock:</b> {state.Data[3].stock} nos
             </span>
-            <button type="onclick">Remove</button>
+            
             <hr />
             {/* CARD PRICE STOCK SECTION */}
             <div className="cardtext d-flex justify-content-between">
@@ -293,7 +293,7 @@ function Section() {
             <div className=" card-text">
               <div className=" d-flex justify-content-between">
                 <span>SUBTOTAL</span>
-                <span>${state.Data[3].price}</span>
+                <span>${Price4}</span>
               </div>
               <div className=" d-flex justify-content-between">
                 <span>SHIPPING</span>
@@ -338,7 +338,7 @@ function Section() {
             <span>
               <b>Stock:</b> {state.Data[4].stock} nos
             </span>
-            <button type="onclick">Remove</button>
+            
             <hr />
             {/* CARD PRICE STOCK SECTION */}
             <div className="cardtext d-flex justify-content-between">
@@ -367,7 +367,7 @@ function Section() {
             <div className=" card-text">
               <div className=" d-flex justify-content-between">
                 <span>SUBTOTAL</span>
-                <span>${state.Data[4].price}</span>
+                <span>${Price5}</span>
               </div>
               <div className=" d-flex justify-content-between">
                 <span>SHIPPING</span>
