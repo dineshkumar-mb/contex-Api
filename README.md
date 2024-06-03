@@ -45,6 +45,14 @@ cd my-project
 npm install
 npm run dev
 
+
+use context Api to avoid props drilling 
+we can avoid it by using context 
+here to to demonstrate this context Api is used to fetch different functions in one place using special props called [children]
+
+1 create context provider
+2 use context provider
+3 value is used to provide output to fetch data
 http://localhost:5173  to view the output in the browser 
 
 
